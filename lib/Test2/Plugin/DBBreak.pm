@@ -2,7 +2,7 @@ package Test2::Plugin::DBBreak;
 use strict;
 use warnings;
 
-our $VERSION = '0.100000';
+our $VERSION = '0.100001';
 
 our $disable = 0;
 
