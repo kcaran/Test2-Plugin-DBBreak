@@ -33,7 +33,7 @@ Produces the output:
 # SOURCE
 
 The source code repository for Test2-Plugin-DBBreak can be found at
-`http://github.com/kcaran/Test2-Plugin-DBBreak/`.
+`https://github.com/kcaran/Test2-Plugin-DBBreak/`.
 
 # MAINTAINERS
 

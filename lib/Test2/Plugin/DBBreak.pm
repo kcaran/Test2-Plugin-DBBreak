@@ -4,6 +4,8 @@ use warnings;
 
 our $VERSION = '0.100000';
 
+our $disable = 0;
+
 use Test2::API qw{
     test2_add_callback_post_load
     test2_stack
@@ -23,6 +25,9 @@ sub import {
 
 sub listener {
     my ($hub, $event) = @_;
+    no warnings 'once';
+
+    return if ($disable);
 
     $DB::single = 1 if ($event->causes_fail);
 
@@ -62,6 +67,12 @@ Produces the output:
     not ok 1 - fail
     Test2::Plugin::DBBreak::listener(/usr/local/lib/perl5/site_perl/5.36.1/Test2/Plugin/DBBreak.pm:29):
     29:         return;
+
+=head1 OPTIONS
+
+To disable the breakpoint temporarily, set the $disable variable to 1:
+
+    $Test2::Plugin::DBBreak::disable = 1
 
 =head1 SOURCE
 
