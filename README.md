@@ -37,15 +37,15 @@ The source code repository for Test2-Plugin-DBBreak can be found at
 
 # MAINTAINERS
 
-- Keith Carangelo &lt;lt>kcaran@gmail.com&lt;gt>
+- Keith Carangelo <kcaran@gmail.com>
 
 # AUTHORS
 
-- Keith Carangelo &lt;lt>kcaran@gmail.com&lt;gt>
+- Keith Carangelo <kcaran@gmail.com>
 
 # COPYRIGHT
 
-Copyright 2024 Keith Carangelo&lt;lt>kcaran@gmail.com&lt;gt>.
+Copyright 2024 Keith Carangelo <kcaran@gmail.com>.
 
 This program is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
