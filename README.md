@@ -33,7 +33,7 @@ To disable the breakpoint temporarily, set the $disable variable to 1:
 # SOURCE
 
 The source code repository for Test2-Plugin-DBBreak can be found at
-`http://github.com/kcaran/Test2-Plugin-DBBreak/`.
+`https://github.com/kcaran/Test2-Plugin-DBBreak/`.
 
 # MAINTAINERS
 
@@ -45,9 +45,9 @@ The source code repository for Test2-Plugin-DBBreak can be found at
 
 # COPYRIGHT
 
-Copyright 2024 Keith Carangelo <kcaran@gmail.com>.
+Copyright 2025 Keith Carangelo <kcaran@gmail.com>.
 
 This program is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
 
-See `http://dev.perl.org/licenses/`
+See `https://dev.perl.org/licenses/`
